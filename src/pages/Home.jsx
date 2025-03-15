@@ -1,8 +1,10 @@
 import React from 'react';
+import Carosol from '../components/carosol/carosol';
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
+      <Carosol />
       <h1 className="text-3xl font-bold">Hello Parvej</h1>
       <div>
         <button className="btn btn-neutral">Neutral</button>

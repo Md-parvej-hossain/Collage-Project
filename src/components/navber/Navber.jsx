@@ -3,19 +3,20 @@ import logo from '../../assets/download.jpeg';
 const Navber = () => {
   const navLink = (
     <>
+      <li className=" hover:bg-[#A9B5DF]">
+        <a>Home</a>
+      </li>
       <li>
         <a>Men</a>
       </li>
       <li>
         <a>Women</a>
       </li>
-      <li>
-        <a>Beauty</a>
-      </li>
+
       <li>
         <a>Sport</a>
       </li>
-      <li>
+      <li className="z-10">
         <details>
           <summary>Templates</summary>
           <ul className="p-2">
@@ -29,6 +30,9 @@ const Navber = () => {
         </details>
       </li>
       <li>
+        <a>Shop</a>
+      </li>
+      <li className="z-10">
         <details>
           <summary>Explore</summary>
           <ul className="p-2">
@@ -41,10 +45,27 @@ const Navber = () => {
           </ul>
         </details>
       </li>
+      <li>
+        <a href="">About</a>{' '}
+      </li>
+      <li>
+        <a href="">Contact</a>
+      </li>
     </>
   );
+  // light thime and dark thime
+  const setDarkMode = () => {
+    document.querySelector('body').setAttribute('data-theme', 'dark');
+  };
+  const setLightMode = () => {
+    document.querySelector('body').setAttribute('data-theme', 'Light');
+  };
+  const toogleThime = e => {
+    if (e.target.checked) setDarkMode();
+    else setLightMode();
+  };
   return (
-    <div>
+    <div className="fixed top-0 left-0 w-full mx-auto">
       <div className="navbar bg-base-100 shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
@@ -78,7 +99,7 @@ const Navber = () => {
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{navLink}</ul>
+          <ul className="menu menu-horizontal px-1 font-semibold">{navLink}</ul>
         </div>
         <div className="navbar-end">
           <label className="swap swap-rotate mr-2">
@@ -87,6 +108,7 @@ const Navber = () => {
               type="checkbox"
               className="theme-controller"
               value="synthwave"
+              onChange={toogleThime}
             />
 
             {/* sun icon */}
@@ -175,7 +197,7 @@ const Navber = () => {
                   <div className="w-10  rounded-full">
                     <img
                       alt="Tailwind CSS Navbar component"
-                      src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                      src="https://image.shutterstock.com/image-vector/man-icon-vector-260nw-1040084344.jpg"
                     />
                   </div>
                 </div>
