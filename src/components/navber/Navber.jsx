@@ -1,55 +1,56 @@
 import React from 'react';
 import logo from '../../assets/download.jpeg';
+import { NavLink } from 'react-router';
 const Navber = () => {
   const navLink = (
     <>
       <li className=" hover:bg-[#A9B5DF]">
-        <a>Home</a>
+        <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <a>Men</a>
+        <NavLink to="/men">Men</NavLink>
       </li>
       <li>
-        <a>Women</a>
+        <NavLink to="/women">Women</NavLink>
       </li>
 
       <li>
-        <a>Sport</a>
+        <NavLink to="/sport">Sport</NavLink>
       </li>
       <li className="z-10">
         <details>
           <summary>Templates</summary>
           <ul className="p-2">
             <li>
-              <a>Submenu 1</a>
+              <NavLink>Submenu 1</NavLink>
             </li>
             <li>
-              <a>Submenu 2</a>
+              <NavLink>Submenu 2</NavLink>
             </li>
           </ul>
         </details>
       </li>
       <li>
-        <a>Shop</a>
+        <NavLink to="/shope">Shop</NavLink>
       </li>
       <li className="z-10">
         <details>
           <summary>Explore</summary>
           <ul className="p-2">
             <li>
-              <a>Submenu 1</a>
+              <NavLink>Submenu 1</NavLink>
             </li>
             <li>
-              <a>Submenu 2</a>
+              <NavLink>Submenu 2</NavLink>
             </li>
           </ul>
         </details>
       </li>
       <li>
-        <a href="">About</a>{' '}
+        <NavLink to={'/about'}>About</NavLink>
       </li>
       <li>
-        <a href="">Contact</a>
+        <NavLink to={'/contact'}>Contact</NavLink>
       </li>
     </>
   );

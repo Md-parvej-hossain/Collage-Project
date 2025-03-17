@@ -1,7 +1,6 @@
 import React from 'react';
-import Carosol from '../components/carosol/carosol';
-
-const Home = () => {
+import Carosol from '../../components/carosol/carosol';
+function Home() {
   return (
     <div className="">
       <Carosol />
@@ -18,6 +17,6 @@ const Home = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Home;
