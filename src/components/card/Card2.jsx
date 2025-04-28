@@ -11,7 +11,7 @@ const Card2 = () => {
           />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title">ইমু একটি রাশিয়ান পরী </h2>
+          <h2 className="card-title">হিমু একটি রাশিয়ান পরী </h2>
           <p>হহুমায়ূন আহমেদ</p>
 
           <div className="card-actions">

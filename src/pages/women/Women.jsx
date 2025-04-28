@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../../components/card/Card';
+import Card3 from '../../components/card/Card3';
 
 const Women = () => {
   return (
@@ -7,19 +8,10 @@ const Women = () => {
       <div>
         <div className="flex flex-col md:flex-row justify-between items-center gap-5 ">
           <div>
-            <select
-              name="category"
-              id="category"
-              className="border p-4 rounded-lg"
-            >
-              <option value="">Choice your language</option>
-              <option value="ENGLISH">pant </option>
-              <option value="FRENCH">shirt</option>
-              <option value="ITALIAN">shoes</option>
-              <option value="GERMAN">watch</option>
-            </select>
+            <h3 className="text-2xl font-medium text-blue-400">
+              Satyajit Ray top Book
+            </h3>
           </div>
-
           <form>
             <div className="flex p-1 overflow-hidden border rounded-lg    focus-within:ring focus-within:ring-opacity-40 focus-within:border-blue-400 focus-within:ring-blue-300">
               <input
@@ -37,13 +29,7 @@ const Women = () => {
           </form>
         </div>
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card3 />
         </div>
       </div>
     </div>

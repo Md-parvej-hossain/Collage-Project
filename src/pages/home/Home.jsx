@@ -4,6 +4,8 @@ import Card from '../../components/card/Card';
 import Card1 from '../../components/card/Card1';
 import Card2 from '../../components/card/Card2';
 import Card3 from '../../components/card/Card3';
+import Card4 from '../../components/card/Card4';
+import Card5 from '../../components/card/card5';
 function Home() {
   return (
     <div className="">
@@ -17,6 +19,8 @@ function Home() {
         <Card1 />
         <Card2 />
         <Card3 />
+        <Card4 />
+        <Card5 />
       </div>
     </div>
   );

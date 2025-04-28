@@ -1,4 +1,4 @@
-import img1 from '../../assets/img1.jpeg';
+import img1 from '../../assets/darjar.jpg';
 const Card4 = () => {
   return (
     <div>
@@ -11,12 +11,12 @@ const Card4 = () => {
           />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title">Card Title</h2>
-          <p>Price :</p>
+          <h2 className="card-title">দরজার ওপাশে </h2>
+          <p>হুমায়ূন আহমেদ</p>
 
           <div className="card-actions">
             <a
-              href="https://drive.usercontent.google.com/u/0/uc?id=1__7LdBFI9aYxxv885B5bFWnNGACB1uEs&export=download"
+              href="https://drive.usercontent.google.com/u/0/uc?id=1Au5lV4KznjaOBBYbo3fY9jI1mpQJn0lY&export=download"
               className="btn btn-primary"
             >
               download Now!

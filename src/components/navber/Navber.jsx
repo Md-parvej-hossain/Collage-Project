@@ -11,10 +11,10 @@ const Navber = () => {
         <NavLink to="/humayun">Humayun Ahmed</NavLink>
       </li>
       <li>
-        <NavLink to="/women">Women</NavLink>
+        <NavLink to="/women">Satyajit Ray</NavLink>
       </li>
 
-      <li>
+      {/* <li>
         <NavLink to="/sport">Sport</NavLink>
       </li>
       <li className="z-10">
@@ -45,9 +45,9 @@ const Navber = () => {
             </li>
           </ul>
         </details>
-      </li>
+      </li> */}
       <li>
-        <NavLink to={'/about'}>About</NavLink>
+        <NavLink to={'/about'}>Bibhutibhushan Banerjee</NavLink>
       </li>
       <li>
         <NavLink to={'/contact'}>Contact</NavLink>

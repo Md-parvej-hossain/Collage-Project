@@ -1,5 +1,7 @@
 import Card from '../../components/card/Card';
 import Card2 from '../../components/card/Card2';
+import Card4 from '../../components/card/Card4';
+import Card5 from '../../components/card/card5';
 
 const Men = () => {
   return (
@@ -43,6 +45,8 @@ const Men = () => {
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           <Card />
           <Card2 />
+          <Card4 />
+          <Card5 />
         </div>
       </div>
     </div>
