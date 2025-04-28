@@ -1,11 +1,12 @@
 import Card from '../../components/card/Card';
+import Card2 from '../../components/card/Card2';
 
 const Men = () => {
   return (
     <div className="container px-6 py-10 mx-auto min-h-[calc(100vh-306px)] flex flex-col justify-between">
       <div>
         <div className="flex flex-col md:flex-row justify-between items-center gap-5 ">
-          <div>
+          {/* <div>
             <select
               name="category"
               id="category"
@@ -17,9 +18,11 @@ const Men = () => {
               <option value="ITALIAN">shoes</option>
               <option value="GERMAN">watch</option>
             </select>
-          </div>
+          </div> */}
           <div>
-            <h3 className="text-2xl font-medium text-blue-400" >Men All Items is Hear</h3>
+            <h3 className="text-2xl font-medium text-blue-400">
+              Humayun Ahmed top Book
+            </h3>
           </div>
           <form>
             <div className="flex p-1 overflow-hidden border rounded-lg    focus-within:ring focus-within:ring-opacity-40 focus-within:border-blue-400 focus-within:ring-blue-300">
@@ -39,12 +42,7 @@ const Men = () => {
         </div>
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card2 />
         </div>
       </div>
     </div>

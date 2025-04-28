@@ -1,5 +1,5 @@
 import img1 from '../../assets/img1.jpeg';
-const Card = () => {
+const Card5 = () => {
   return (
     <div>
       <div className="card bg-gray-200 shadow-sm group z-0">
@@ -11,8 +11,8 @@ const Card = () => {
           />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title">তোমাদের এই নগর </h2>
-          <p>হুমায়ূন আহমেদ</p>
+          <h2 className="card-title">Card Title</h2>
+          <p>Price :</p>
 
           <div className="card-actions">
             <a
@@ -28,4 +28,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Card5;

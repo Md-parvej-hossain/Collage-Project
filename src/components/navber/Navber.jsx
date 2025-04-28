@@ -96,7 +96,7 @@ const Navber = () => {
           </div>
           <a className="flex items-center hover:cursor-pointer">
             <img className="w-14 rounded-full" src={logo} alt="Logo" />
-            <p className="font-bold hidden md:block">Ak-Shop</p>
+            <p className="font-bold hidden md:block">Ak-Book-Shop</p>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">

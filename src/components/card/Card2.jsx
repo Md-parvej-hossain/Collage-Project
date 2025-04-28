@@ -1,5 +1,5 @@
-import img1 from '../../assets/img1.jpeg';
-const Card = () => {
+import img1 from '../../assets/hemu.jpg';
+const Card2 = () => {
   return (
     <div>
       <div className="card bg-gray-200 shadow-sm group z-0">
@@ -11,12 +11,12 @@ const Card = () => {
           />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title">তোমাদের এই নগর </h2>
-          <p>হুমায়ূন আহমেদ</p>
+          <h2 className="card-title">ইমু একটি রাশিয়ান পরী </h2>
+          <p>হহুমায়ূন আহমেদ</p>
 
           <div className="card-actions">
             <a
-              href="https://drive.usercontent.google.com/u/0/uc?id=1__7LdBFI9aYxxv885B5bFWnNGACB1uEs&export=download"
+              href="https://drive.usercontent.google.com/u/0/uc?id=178f-LImyET4wxwb8AQYfbXMcXr-83345&export=download"
               className="btn btn-primary"
             >
               download Now!
@@ -28,4 +28,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Card2;
