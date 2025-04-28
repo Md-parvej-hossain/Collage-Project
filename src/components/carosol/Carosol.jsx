@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../../assets/b3.png';
+import banner from '../../assets/b1.jpg';
 const carosol = () => {
   return (
     <div>

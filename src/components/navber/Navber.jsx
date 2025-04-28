@@ -8,7 +8,7 @@ const Navber = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/men">Men</NavLink>
+        <NavLink to="/humayun">Humayun Ahmed</NavLink>
       </li>
       <li>
         <NavLink to="/women">Women</NavLink>
