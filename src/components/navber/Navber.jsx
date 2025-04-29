@@ -14,41 +14,55 @@ const Navber = () => {
         <NavLink to="/women">Satyajit Ray</NavLink>
       </li>
 
-      {/* <li>
-        <NavLink to="/sport">Sport</NavLink>
-      </li>
+    
       <li className="z-10">
         <details>
-          <summary>Templates</summary>
-          <ul className="p-2">
+          <summary>Polytechnic</summary>
+          <ul className="p-5">
             <li>
-              <NavLink>Submenu 1</NavLink>
+              <a>1st semester </a>
             </li>
             <li>
-              <NavLink>Submenu 2</NavLink>
+              <a>2nd semester </a>
+            </li>
+            <li>
+              <a>3rd semester </a>
+            </li>
+            <li>
+              <a>4th semester </a>
+            </li>
+            <li>
+              <a>5th semester </a>
+            </li>
+            <li>
+              <a>6th semester </a>
+            </li>
+            <li>
+              <a>7th semester </a>
             </li>
           </ul>
         </details>
       </li>
-      <li>
-        <NavLink to="/shope">Shop</NavLink>
-      </li>
-      <li className="z-10">
-        <details>
-          <summary>Explore</summary>
-          <ul className="p-2">
-            <li>
-              <NavLink>Submenu 1</NavLink>
-            </li>
-            <li>
-              <NavLink>Submenu 2</NavLink>
-            </li>
-          </ul>
-        </details>
-      </li> */}
+
       <li>
         <NavLink to={'/about'}>Bibhutibhushan Banerjee</NavLink>
       </li>
+      <li>
+        <NavLink to={'/class6'}>Class 6</NavLink>
+      </li>
+      <li>
+        <NavLink to={'/class7'}>Class 7</NavLink>
+      </li>
+      <li>
+        <NavLink to={'/class8'}>Class 8</NavLink>
+      </li>
+      <li>
+        <NavLink to={'/class9'}>Class 9</NavLink>
+      </li>
+      <li>
+        <NavLink to={'/class10'}>Class 10</NavLink>
+      </li>
+
       <li>
         <NavLink to={'/contact'}>Contact</NavLink>
       </li>
